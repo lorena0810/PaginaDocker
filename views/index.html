@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<!--Importar estilos y scripts-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="../css/subnav.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+h1,h2,h3,h4,h5,h6{font-family: "AR HERMANN"}
+h3, h5{font-size: "1000"}
+h7, h12 {font-size: "500"}
+h8, h9, h10 , h11 {font-style: ""}
+body {font-family: "Open Sans"}
+</style>
+<!--fondo de pagina, se le puede cambiar el color-->
+<body class="w3-container w3-white">
+<!-- Navigation bar with social media icons (inconos de las redes sociales) -->
+<div class="w3-border  w3-orange  w3-hide-small" style="font-size: 250%">
+  <!--ACA TAMBIEN PUEDES COLOCAR BOTONES DE BUSCAS O INFORMACION O QUE HABRAN A OTRAS PAGINAS COMO LOS CURSOS-->
+<!--
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+-->
+
+</div>
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class= "class="w3-container w3-teal">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-42 w3-show">
+    <h1 class="w3-xxxlarge"><h2 style="font-family:AR HERMANN"><h3 style="font-size:1000%"><h8 style="color:yellow"><b>CHILDTOPIA</b></h1></h2></h3></h8>
+    <h6><h7 style="font-size:500%"><h9 style="color:yellow">Welcome to the blog of Chiltopia world</h6></h7></h9>
+  </header>
+
+  <!-- Image header -->
+   <header class="w3-container w3-center w3-padding-42 w3-show">
+ 	<header class="w3-display-container w3-wide" id="home">
+ 	<div class="w3-row-padding w3-margin-top">
+ 	<div class="w3-right">
+    <img src="img/escuela.jpg" alt="Blog Educativo" width="700" height="400">
+    <div class="w3-display-left w3-padding-large">
+     <h1 class="w3-text-red">CHILDTOPIA</h1>
+     <h1 class="w3-jumbo w3-text-red w3-hide-small"><b>EDUACTIVO BLOG</b></h1>
+      <h6><button class="w3-button w3-red w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'"><h12 style="font-size:250%";>REGISTRATE</button></h6></h12>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3 style="font-size:700%"><h10 style="color:yellow">Introduccion</h3></h10>
+          <h5 style="font-size:200%"><h11 style="color:yellow">CHILDTOPIA<br></br></h5></h11>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/amistad.jpg" style="width:100%" class="w3-padding-16">
+          <p><strong>CHILDTOPIA!</strong>La estrategia pedagógica que se traza en nuestro centro de aprendizaje online siguiendo los principios de integralidad, participación y lúdica. El plan de estudios se estructura a partir de las dimensiones biológicas, cognitivas, psicomotrices, socio-afectivas y espiritual, a través de experiencias de socialización pedagógica y recreativas. Este plan de estudios se complementa con los proyectos pedagógicos de educación básica.Se anexan planes de áreas.</p>
+          <p>Por medio de esta plataforma los niños y adolecentes pueden aprender o reforzar sus conocimientos.</p>
+          <!--Botones de like y relike-->
+          <p class="w3-left">
+          <p class="w3-right">
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="" style="width:90px;">
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+
+          <h3 style="font-size:700%"><h10 style="color:yellow">Objetivos</h3>
+          <div  class="w3-justify"">
+      	  <p>
+      	  	<li>Desarrollar las habilidades comunicativas para leer, comprender, escribir, escuchar, hablar y expresarse correctamente.<br></li>
+			<li>Ampliar y profundizar en el razonamiento lógico y analítico para la interpretación y solución de los problemas de la ciencia, la tecnología y de la vida cotidiana.</li>
+			<li>Fomentar el interés y el desarrollo de actitudes hacía la práctica investigativa.<br></li>
+			<li>Propiciar la formación social, ética, moral y demás valores del desarrollo humano.</li>
+		</p>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/amistad2.jpg" style="width:100%" class="w3-padding-16">
+          <p class="w3-left"></p>
+          <p class="w3-right"></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3 style="font-size:400%"><h10 style="color:yellow">¡HAZ QUE EL APRENDIZAJE SEA INCREÍBLE!</h3>
+          <h5><span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/amistad6.jpg" style="width:100%" class="w3-padding-16">
+          <p><strong>CHILDTOPIA!</strong></p>
+          <p>Es una plataforma de aprendizaje basada en juegos y trivialidades utilizada en aulas, oficinas y entornos sociales. ¡Regístrate para crear, jugar y compartir concursos interesantes sobre cualquier tema!</p>
+          <p class="w3-left"></p>
+          <p class="w3-right"></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field-- mueve los contenedores del lado drecho, no lo borres -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/amistad1" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ciencia<span class="w3-opacity w3-medium"></span></h4>
+                <p>Los niños van a tener todo el material disponible para su aprendizaje.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/niños.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><span class="w3-opacity w3-medium"></h4>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/reunion.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/amistad1.jpg" style="width:100%" >
+        <div class="w3-container w3-white">
+        <div class="w3-container w3-padding w3-yellow">
+          <h4 style="color:green"; style="font-size: 120%">Ciencia</h4>
+          <p>Los niños van a tener todo el material disponible para su aprendizaje.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-orange">
+          <h4 style="color:red">Gratis para profesores y uso personal.</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-blue">
+        	<a href="views/about.html">  <!-- about link -->
+        		<li class="w3-padding-16">
+           			<img src="img/amistad.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            		<span class="w3-large">Profesores en linea</span>
+            		<br>
+            		<span>Tutoriales</span>
+          		</li>
+        	</a>
+          <li class="w3-padding-16">
+            <img src="img/compu.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            <span class="w3-large">Aplicacion Movil</span>
+            <br>
+            <span>Se adapta a todo patalla</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/tecno.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            <span class="w3-large">Cursos</span>
+            <br>
+            <span>Cursos de interes</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/amistad3.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+            <span class="w3-large">Juegos</span>
+            <br>
+            <span>juegos de aprendizaje</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-green">
+          <h4>Contactanos</h4>
+        </div>
+        <div class="w3-container w3-white">
+
+          <img src="img/amistad4.jpg" alt="Image" class="w3-center w3-margin-right w3-sepia" style="width:300px">
+            <span class="w3-display-middle"></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-orange">
+          <h4>Videos Juegos</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-green w3-margin-bottom">Sumar</span> <span class="w3-tag w3-red w3-small w3-margin-bottom">Restar</span> <span class="w3-tag w3-yellow w3-small w3-margin-bottom">Dividir</span>
+            <span class="w3-tag w3-red w3-small w3-margin-bottom">Leer</span> <span class="w3-tag w3-blue w3-small w3-margin-bottom">Libros</span> <span class="w3-tag w3-yellow w3-small w3-margin-bottom">Dibujar</span>
+            <span class="w3-tag w3-green w3-small w3-margin-bottom">Pintar</span> <span class="w3-tag w3-red w3-small w3-margin-bottom">Dividir</span> <span class="w3-tag w3-orange w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-green w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-red w3-small w3-margin-bottom">Conteo</span> <span class="w3-tag w3-blue w3-small w3-margin-bottom">Videos</span>
+            <span class="w3-tag w3-red w3-small w3-margin-bottom">Arma tu horario</span> <span class="w3-tag w3-blue w3-small w3-margin-bottom">Tutoriales</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-yellow">
+          <h4 style="color:green">Tecnicas</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/infografia.jpg" style="long:200%" style="width:200%"></p>
+          </div>
+          <div class="w3-col s6">
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-yellow">
+          <h4>Siguenos</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-orange">
+          <h4 style="color:green">CHILTOPIA</h4>
+        </div>
+        <div class="w3-container w3-purple">
+        <div class="w3-justify">
+          <p>¿Planeando una sesión de entrenamiento, una actividad de construcción de equipo o un evento? ¡Hazlo divertido y entretenido con Childtopia! Elija uno de nuestros planes de aprendizaje,incluye el conjunto completo de nuestras funciones avanzadas, coach de éxito del cliente y un mayor número de participantes en los juegos.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Registrate</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">REGISTRATE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Registrate</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-lime" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
